@@ -1,0 +1,6 @@
+openai
+requests
+qrcode
+pillow
+plyer
+PyPDF2
