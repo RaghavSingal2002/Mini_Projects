@@ -1,13 +1,12 @@
 # 🐍 Python Mini Projects Collection
 
-This repository contains a collection of **small Python projects** built to practice Python fundamentals, automation, APIs, and user interaction.  
-Each project is independent and can be executed separately from the command line.
+This repository contains a collection of **8 Python mini projects** built to practice Python fundamentals, file handling, automation, APIs, and system-level scripting.
 
-These projects are suitable for **beginners**, **college assignments**, and **Python portfolios**.
+Each project is independent and can be executed separately from the command line.
 
 ---
 
-## 📂 List of Projects
+## 📂 Projects Included
 
 ---
 
@@ -17,24 +16,38 @@ These projects are suitable for **beginners**, **college assignments**, and **Py
 A command-line **AI-powered chatbot** that interacts with users using the OpenAI API.  
 It maintains conversation history and responds intelligently to user queries.
 
-### Features
-- Interactive chat
-- Maintains conversation context
-- Exit using `exit` or `quit`
-
 ### Concepts Used
 - OpenAI API
 - Environment variables
-- Lists & dictionaries
 - API request/response handling
-- Loops
+- Lists & dictionaries
+- Infinite loops
 
 ---
 
-## 2️⃣ Calculator
+## 2️⃣ Bulk Rename Tool
+📁 `Bulk_Rename/`
+
+A Python utility that **automatically renames files of a specific extension** and organizes them into a folder.
+
+### What It Does
+- Filters files by extension (e.g., `.jpg`)
+- Creates an `images` directory
+- Renames files in sequence (e.g., `my_photo-1.jpg`, `my_photo-2.jpg`)
+- Moves renamed files into the folder
+
+### Concepts Used
+- File handling
+- `os` module
+- List comprehensions
+- Automation scripting
+
+---
+
+## 3️⃣ Calculator
 📁 `Calculator/`
 
-A simple **command-line calculator** that performs basic arithmetic operations.
+A command-line calculator that performs basic arithmetic operations.
 
 ### Operations Supported
 - Addition
@@ -50,34 +63,24 @@ A simple **command-line calculator** that performs basic arithmetic operations.
 
 ---
 
-## 3️⃣ Millionaire Game
+## 4️⃣ Millionaire Game
 📁 `Millionaire/`
 
 A quiz-based game inspired by **Kaun Banega Crorepati / Who Wants to Be a Millionaire**.  
 Players answer multiple-choice questions and win increasing prize money.
 
-### Features
-- Multiple questions
-- Prize progression
-- Game ends on wrong answer
-
 ### Concepts Used
 - Lists
 - Loops
 - Conditional logic
-- Exception handling
+- Game flow control
 
 ---
 
-## 4️⃣ News API Project
+## 5️⃣ News API Project
 📁 `News-api/`
 
-Fetches and displays the **latest news headlines** based on a user’s interest using the News API.
-
-### Features
-- Search news by keyword
-- Displays headlines with links
-- Handles API errors
+Fetches and displays the **latest news headlines** based on user input using the News API.
 
 ### Concepts Used
 - REST APIs
@@ -87,10 +90,10 @@ Fetches and displays the **latest news headlines** based on a user’s interest 
 
 ---
 
-## 5️⃣ PDF Merger
+## 6️⃣ PDF Merger
 📁 `PDF_Merger/`
 
-A utility script that merges multiple PDF files into a single PDF file.
+A utility script that merges multiple PDF files into a single PDF document.
 
 ### Concepts Used
 - File handling
@@ -99,14 +102,10 @@ A utility script that merges multiple PDF files into a single PDF file.
 
 ---
 
-## 6️⃣ QR Code Generator
+## 7️⃣ QR Code Generator
 📁 `QR_Code_Generator/`
 
-Generates a **QR code** for any URL or text and saves it as an image file.
-
-### Features
-- User-defined filename
-- Automatic `.png` handling
+Generates a **QR code** for any URL or text and saves it as a PNG image.
 
 ### Concepts Used
 - `qrcode` library
@@ -115,19 +114,15 @@ Generates a **QR code** for any URL or text and saves it as an image file.
 
 ---
 
-## 7️⃣ Water Reminder
+## 8️⃣ Water Reminder
 📁 `Water_Reminder/`
 
-A desktop **notification-based reminder** that reminds the user to drink water every hour.
-
-### Features
-- Hourly reminders
-- Desktop notifications
+A desktop notification-based reminder that reminds users to drink water at regular intervals.
 
 ### Concepts Used
 - Infinite loops
 - `time.sleep`
-- `plyer` notifications
+- Desktop notifications using `plyer`
 
 ---
 
